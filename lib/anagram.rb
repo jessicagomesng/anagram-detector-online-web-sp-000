@@ -9,7 +9,6 @@ class Anagram
 
   def match(array_of_anagrams)
     #turn the word into an array
-    array_of_letters = @word.split("")
     #check if the lengths are the same
     array_of_anagrams.select do |possible_word|
       possible_word.split("").sort == @word.split("").sort
