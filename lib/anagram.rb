@@ -14,5 +14,6 @@ class Anagram
     array_of_anagrams.select do |possible_word|
       possible_word_array.sort == array_of_letters.sort
     end
-    end
+  end
+  
   end
