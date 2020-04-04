@@ -12,8 +12,8 @@ class Anagram
     array_of_letters = @word.split("")
     #check if the lengths are the same
     array_of_anagrams.select do |possible_word|
-      possible_word_array.sort == array_of_letters.sort
+      possible_word.split("").sort == array_of_letters.sort
     end
   end
-  
+
   end
